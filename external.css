@@ -66,23 +66,34 @@ footer{
     padding: 15px;
     margin-top: 20px;
 }
-#contact form{
+#contact{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    border: white 5px;
+    border-radius: 9px;
+    box-shadow: 0 0 6px aquamarine;
+
+}
+.contact-form{
     display: inline-flex;
     flex-direction: column;
     max-width: 500px;
     margin: 0 auto;
     gap: 20px;
 }
-#contact-form label{
+.contact-form label{
     font-weight: bold;
+    color: cadetblue;
 }
-#contact-form input,
-#contact-form textarea {
-    width: 100px;
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
     border: 1px solid lightgray;
     border-radius: 5px;
 }
-#contact-form button{
+.contact-form button{
+
     background-color: cornflowerblue;
     color: white;
     border: none;
@@ -92,6 +103,6 @@ footer{
     cursor: pointer;
 
 }
-#contact-form button:hover{
+.contact-form button:hover{
     background-color: hotpink;
 }
