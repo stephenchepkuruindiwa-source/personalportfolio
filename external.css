@@ -1,0 +1,97 @@
+header{
+    background-color: saddlebrown;
+    text-align: center;
+    padding: 30px;
+}
+body{
+    font-family: "Candara Light";
+    margin: 0;
+    background-color: wheat;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display:inline-block;
+    margin:0px 10px;
+}
+nav a{
+    color:mintcream;
+    text-decoration: none;
+    padding:10px 15px;
+}
+nav a:hover{
+    background-color:olivedrab ;
+    border-radius: 2px;
+}
+main{
+    padding: 20px;
+}
+#me{
+    width: 150px;
+    height: 250px;
+    border-radius: 60%;
+}
+#about{
+    padding: 20px;
+    border: aquamarine 5px;
+    border-radius: 9px;
+    box-shadow: 0 0 5px darkgray;
+    margin-bottom: 12px;
+}
+#project-container{
+    display: flex;
+    gap: 20px;
+    border-radius: 9px;
+}
+#projo{
+    background-color:inherit ;
+    padding: 20px;
+    border: cornsilk;
+    border-radius: 7px;
+    box-shadow: 0 0 5px ;
+    text-align: center;
+    flex: 200px;
+}
+h3{
+    color: olive;
+}
+h4{
+    color: olive;
+}
+footer{
+    background-color: olive;
+    text-align: center;
+    color: cornsilk;
+    padding: 15px;
+    margin-top: 20px;
+}
+#contact form{
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 20px;
+}
+#contact-form label{
+    font-weight: bold;
+}
+#contact-form input,
+#contact-form textarea {
+    width: 100px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+#contact-form button{
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: medium;
+    cursor: pointer;
+
+}
+#contact-form button:hover{
+    background-color: hotpink;
+}
