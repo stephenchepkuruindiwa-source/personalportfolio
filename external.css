@@ -42,9 +42,8 @@ main{
 #project-container{
     display: flex;
     gap: 20px;
-    border-radius: 9px;
 }
-#projo{
+.projo{
     background-color:inherit ;
     padding: 20px;
     border: cornsilk;
@@ -105,4 +104,14 @@ footer{
 }
 .contact-form button:hover{
     background-color: hotpink;
+}
+/* responsive */
+@media(max-width: 768px){
+    nav li{
+        display: block;
+        margin: 15px 0;
+    }
+}
+#project-container{
+    flex-direction: column;
 }
